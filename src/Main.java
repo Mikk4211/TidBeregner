@@ -19,7 +19,7 @@ public class Main {
 
         // Selve beregningen
         minutterRes = antalSekunder/60;
-        sekunderRes = antalSekunder%60;
+        sekunderRes = antalSekunder%60;                         // Her bruges mod (%), som giver resten af tallet. Her ville vi kunne få ms.
 
         // Her skrives resultatet af udregningen
         System.out.println("Minutter: " + minutterRes + " Sekunder: " + sekunderRes);
